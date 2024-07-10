@@ -13,7 +13,7 @@ function UserPosts() {
     const navigate = useNavigate()
   useEffect(() => {
     axios
-      .get(`https://friends-failsapp.vercel.app/listings/user/${user}`)
+      .get(`https://backend-cat-fails.vercel.app/listings/user/${user}`)
       .then((res) => {
         setData(res.data);
       })
