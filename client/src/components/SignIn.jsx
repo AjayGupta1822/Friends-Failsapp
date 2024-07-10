@@ -23,7 +23,7 @@ function SignIn() {
   try{
     toast.promise(
       axios
-      .post("https://backend-cat-fails.vercel.app/users/login", data)
+      .post("https://friends-failsapp.vercel.app/users/login", data)
       , {
       loading: "Loading...",
       success: (result) => {
