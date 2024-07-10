@@ -28,7 +28,7 @@ function CardDetails() {
     if (result) {
       try {
         toast.promise(
-          axios.delete(`https://friends-failsapp.vercel.app/listings/${data._id}`),
+          axios.delete(`https://backend-cat-fails.vercel.app/listings/${data._id}`),
           {
             loading: "Loading...",
             success: () => {
