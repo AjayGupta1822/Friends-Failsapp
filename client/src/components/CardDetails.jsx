@@ -14,7 +14,7 @@ function CardDetails() {
 
   useEffect(() => {
     axios
-      .get(`https://friends-failsapp.vercel.app/listings/${id}`)
+      .get(`https://backend-cat-fails.vercel.app/listings/${id}`)
       .then((res) => {
         setData(res.data);
       })
