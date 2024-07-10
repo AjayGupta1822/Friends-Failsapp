@@ -28,7 +28,7 @@ function NewPost() {
   const FormSubmitHandler = (data) => {
     try {
       toast.promise(
-        axios.post("https://friends-failsapp.vercel.app/listings", data,{
+        axios.post("https://backend-cat-fails.vercel.app/listings", data,{
           headers:{
             "Authorization":token
           }
