@@ -10,7 +10,7 @@ function Users() {
   useEffect(() => {
     setTimeout(() => {
       axios
-        .get("https://friends-failsapp.vercel.app/users")
+        .get("https://backend-cat-fails.vercel.app/users")
         .then((res) => {
           setData(res.data);
         })
