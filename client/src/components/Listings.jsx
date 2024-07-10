@@ -14,7 +14,7 @@ function Listings() {
   useEffect(() => {
     setTimeout(() => {
       axios
-        .get("https://friends-failsapp.vercel.app/listings")
+        .get("https://backend-cat-fails.vercel.app/listings")
         .then((data) => {
           setData(data.data);
         })
